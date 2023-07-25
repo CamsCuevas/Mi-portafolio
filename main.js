@@ -15,7 +15,7 @@ typewriter
 let miImage = document.getElementById("fotoexperiencia");
 miImage.onclick = function () {
   let miSrc = miImage.getAttribute("src");
-  if (miSrc === "aaa/tecnologías.png") {
+  if (miSrc === "tecnologías.png") {
     miImage.setAttribute("src", "logoomm.png");
   } else {
     miImage.setAttribute("src", "tecnologías.png");

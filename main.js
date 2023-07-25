@@ -16,8 +16,8 @@ let miImage = document.getElementById("fotoexperiencia");
 miImage.onclick = function () {
   let miSrc = miImage.getAttribute("src");
   if (miSrc === "aaa/tecnologías.png") {
-    miImage.setAttribute("src", "aaa/logoomm.png");
+    miImage.setAttribute("src", "logoomm.png");
   } else {
-    miImage.setAttribute("src", "aaa/tecnologías.png");
+    miImage.setAttribute("src", "tecnologías.png");
   }
 };

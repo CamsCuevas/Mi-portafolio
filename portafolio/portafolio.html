@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Camila Cuevas</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="portafolio.css">
+</head>
+
+<body class="container-fluid p-0">
+    <header class="d-flex justify-content-center py-3">
+        <ul class="nav nav-pills">
+            <li class="nav-item"><a href="#perfil" class="nav-link" aria-current="page">Perfil</a></li>
+            <li class="nav-item"><a href="#secciones" class="nav-link">Experiencia</a></li>
+            <li class="nav-item"><a href="#proyectos" class="nav-link">Proyectos</a></li>
+            <li class="nav-item"><a href="#testimonios" class="nav-link">Testimonios</a></li>
+            <li class="nav-item"><a href="#contactoo" class="nav-link">Contacto</a></li>
+        </ul>
+    </header>
+    <!-- Perfil (foto, descripción, imagen bonita) -->
+    <div id="perfil" class="container-fluid px-5 py-2">
+        <div class="row flex-lg-row-reverse align-items-center g-4 py-1">
+          <div class="col-10 col-sm-8 col-lg-4">
+            <img src="fotodeperfilowo.png" class="d-block mx-lg-auto img-fluid img-thumbnail rounded-circle" width="275" height="300" loading="lazy">
+          </div>
+          <div class="col-lg-8 p-5">
+            <h1 id="typewriter" class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Soy Camila Cuevas</h1>
+            <p class="lead">Desarrolladora Web, Olímpica matemática, Asesora/Entrenadora/Evaluadora en matemáticas olímpicas, Ajedrecista y destacada Estudiante de PrepaTec. Fan de los libros y los gatitos.</p>
+          </div>
+        </div>
+      </div>
+    <!-- Secciones de mi página / links a otras páginas -->
+    <div id="secciones" class="container my-5 text-bg-dark">
+        <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center border shadow-lg">
+            <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
+                <h1 class="display-4 fw-bold lh-1">Mis Experiencias</h1>
+                <p class="lead">Actualmente tengo 17 años y estudio en la prepa del Tec de Monterrey campus Tampico, (mencionar tópicos y optativas). He sido ganadora de diversas competencias de matemáticas, entrenadora de las nuevas generaciones de olímpicos en Tamaulipas y evaluadora en concursos nacionales. Si bien no he desarollado tantos sitios web, cuento con las habilidades necesarias para hacerlo, así como otras competencias que he adquirido al participar en olimpiadas de matemáticas, torneos de ajedrez y actividades escolares.</p>
+            </div>
+            <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
+                <img id="fotoexperiencia" class="rounded-lg-3" src="aaa/tecnologías.png" width="300">
+            </div>
+        </div>
+    </div>
+        <section class="container my-5 text-center">
+            <div class="row rounded-3 shadow-lg">
+                <div class="col-4 p-3 des">
+                    <h5>Desarrollo Web</h5>
+                    <p>Fui parte del programa Tecnolochicas PRO Summer Camp 2023, donde adquirí habilidades para desarrollar sitios web funcionales y responsivos mediante 3 lenguajes y un framework:</p>
+                    <span class="badge rounded-pill sp1">HTML</span>
+                    <span class="badge rounded-pill sp1">CSS</span>
+                    <span class="badge rounded-pill sp1">JavaScript</span>
+                    <span class="badge rounded-pill sp1">Bootstrap</span>
+                </div>
+                <div class="owo col-4 p-3">
+                    <h5>Olimpiadas de Matemáticas <button><i class="bi bi-hand-index-thumb icono" data-bs-toggle="modal" data-bs-target="#modal-olimpiadas"></i></button></h5>
+                    <p>He sido campeona en múltiples competencias de matemáticas, tanto a nivel nacional como internacional. Mis principales logros:</p>
+                    <span class="badge rounded-pill text-bg-dark">OMMEB 2020: medalla de oro</span>
+                    <span class="badge rounded-pill text-bg-dark">ONMAPS 2021: medalla de oro</span>
+                    <span class="badge rounded-pill text-bg-dark">PAGMO 2021 y 2022: ambas medalla de plata</span>
+                    <span class="badge rounded-pill text-bg-dark">IGO 2021: medalla de bronce</span>
+                    <span class="badge rounded-pill text-bg-dark">OMM 2020 y 2021: medalla de bronce</span>
+                    <span class="badge rounded-pill text-bg-dark">OMM 2022: medalla de plata</span>
+                    <span class="badge rounded-pill text-bg-dark">EGMO 2023: representando a México en Eslovenia</span>
+                    <span class="badge rounded-pill text-bg-dark">ONMAPS 2023: Entrenadora de Tamaulipas</span>
+                    <span class="badge rounded-pill text-bg-dark">ONMAPS 2023: Evaluadora de 1ro de secundaria </span>
+                    <span class="badge rounded-pill text-bg-dark">CNF OMM 2022 y 2023: ambas medalla de oro</span>
+                </div>
+                <div class="des col-4 p-3">
+                    <h5>Otras competencias</h5>
+                    <p>Menciono otros logros y competencias adquiridas a lo largo de mi trayectoria STEM:</p>
+                        <span class="badge rounded-pill sp1">B-Honored de todos los semestres en PrepaTec</span><button><i class="bi bi-hand-index-thumb icono2" data-bs-toggle="modal" data-bs-target="#modal-B-Honored"></i></button><br>
+                        <span class="badge rounded-pill sp1">Liderazgo</span><br>
+                        <span class="badge rounded-pill sp1">Pensamiento crítico</span><br>
+                        <span class="badge rounded-pill sp1">Pensamiento analítico</span><br>
+                        <span class="badge rounded-pill sp1">Creatividad e ingenio</span><br>
+                        <span class="badge rounded-pill sp1">Capacidad resolutiva</span><br>
+                </div>
+            </div>
+        </section>   
+    <!-- Proyectos -->
+        <section id="proyectos" class="container rounded-3 shadow-lg my-5">
+            <div class="row py-3 justify-content-center text-center">
+                <h1 class="lh-1 py-2 fw-bold display-6 text-white text-shadow-1" id="tituloproyectos">Proyectos</h1>
+            </div>
+        <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-3">
+            <div class="col">
+                <div id="proyecto-1" class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg">
+                    <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                        <h3 class="titulo-proyecto pt-5 mt-5 mb-4 display-6 lh-1 fw-bold ">TaylorInUku</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div id="proyecto-2" class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg">
+                    <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                        <h3 class="titulo-proyecto pt-5 mt-5 mb-4 display-6 lh-1 fw-bold ">Clon de Google</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div id="proyecto-3" class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg">
+                    <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                        <h3 class="titulo-proyecto pt-5 mt-5 mb-4 display-6 lh-1 fw-bold ">eureka!</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div id="proyecto-4" class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg">
+                    <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                        <h3 class="titulo-proyecto pt-5 mt-5 mb-4 display-6 lh-1 fw-bold ">Nombre Proyecto</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div id="proyecto-5" class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg">
+                    <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                        <h3 class="titulo-proyecto pt-5 mt-5 mb-4 display-6 lh-1 fw-bold ">Nombre Proyecto</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div id="proyecto-6" class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg">
+                    <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                        <h3 class="titulo-proyecto pt-5 mt-5 mb-4 display-6 lh-1 fw-bold ">Nombre Proyecto</h3>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    <!-- Testimonios -->
+    <section id="testimonios" class="container my-5">
+        <div class="row border text-bg-dark shadow-lg">
+        <h1 class="text-center fw-bold my-4">Testimonios</h1>
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="7000">
+                <div class="carousel-caption d-flex justify-content-center">
+                    <div class="col-lg-6">
+                        <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="angelito.jpg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect></svg>
+                        <h2 class="uwu">Alumno de primaria</h2>
+                        <p>"Me gustaron mucho las clases, probablemente si me las hubiera dado alguien más ya hubiera renunciado y no habría ido a la competencia, pero usted Miss Camila nos hizo sentir a gusto y nos hizo ver que las matemáticas pueden ser divertidas"</p>
+                      </div>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="7000">
+                <div class="carousel-caption d-flex justify-content-center">
+                    <div class="col-lg-6">
+                        <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="abo.jpg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect></svg>
+                        <h2 class="uwu">Alumna de secundaria</h2>
+                        <p>"Me pareció muy buena, siento que conectó con mi método de aprendizaje ya que en mi experiencia tratar de que quede claro para todas las personas es muy difícil"</p>
+                      </div>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="6000">
+                <div class="carousel-caption d-flex justify-content-center">
+                    <div class="col-lg-4">
+                        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect></svg>
+                        <h2 class="uwu">Heading</h2>
+                        <p>Some representative placeholder content for the three columns of text below the carousel. This is the first column.</p>
+                      </div>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+        </section>
+    <!-- Contacto -->
+    <div  id="contactoo" class="px-4 py-5 text-center">
+        <h1 class="display-5 fw-bold text-body-emphasis">Contacto</h1>
+        <div class="col-lg-6 mx-auto">
+        <i class="bi bi-envelope-at"></i><i class="bi bi-linkedin"></i>
+          <p>Desarrollado en Tecnolochicas PRO Summer Camp por [Camila Cuevas](https://www.markdownguide.org/cheat-sheet/)</p>
+          
+      </div>
+    <!--Modals-->
+    <div id="modal-olimpiadas" class="modal" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title">Más sobre las Olimpiadas</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <p> <b>PAGMO</b>: Pan-American Girls' Mathematical Olympiad<br>
+                    <b>IGO</b>: Iranian Geometry Olympiad<br>
+                    <b>OMM</b>: Olimpiada Mexicana de Matemáticas<br>
+                    <b>EGMO</b>: European Girls' Mathematical Olympiad<br>
+                    <b>ONMAPS</b>: Olimpiada Nacional de Matemáticas para Alumnos de Primaria y Secundaria<br>
+                    <b>CNF</b>: Concurso Nacional Femenil de la OMM
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="modal-B-Honored" class="modal" tabindex="-1">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title">Alumnos destacados de PrepaTec</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <p>El premio <em>B-Honored</em> es un diploma por semestre que se les otorga a los alumnos con un promedio igual o mayor a <b>95</b>.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

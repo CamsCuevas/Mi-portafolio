@@ -25,6 +25,10 @@ Además, se incluyen *Google Fonts*.
 
 El texto de la página web está escrito en español, sin embargo las clases relacionadas con Bootstrap se incluyen en inglés.
 
+## Link
+
+https://sparkling-yeot-c0ff13.netlify.app/
+
 ## Contacto
 
-Desarrollado en Tecnolochicas PRO Summer Camp por [Camila Cuevas](https://www.markdownguide.org/cheat-sheet/).
+Desarrollado en Tecnolochicas PRO Summer Camp por [Camila Cuevas](https://www.linkedin.com/in/ana-camila-cuevas-gonz%C3%A1lez-a40115285/).
